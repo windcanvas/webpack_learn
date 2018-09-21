@@ -1,0 +1,78 @@
+body {
+  font-size: 20px;
+}
+
+.src-css-common_bigBox_o4lLi {
+    height: 400px;
+    width: 400px;
+    border: 5px solid #000;
+    color: #000;
+
+    > div {
+        width: 128px;
+        height: 128px;
+        float: left;
+    }
+
+    .src-css-common_ani1_3922i {
+       background: url(dist/assets/imgs/timg1-e9f95.jpeg) no-repeat
+    }
+    .src-css-common_ani2_12wHY {
+       background: url(dist/assets/imgs/timg2-325e4.jpeg) no-repeat
+    }
+    .src-css-common_ani3_3DEXW {
+       background: url(dist/assets/imgs/timg3-5500b.jpeg) no-repeat
+    }
+    .src-css-common_ani4_u8NxB {
+       background: url(dist/assets/imgs/timg4-21409.jpeg) no-repeat
+    }
+}
+
+
+html {
+  background: #ff3333;
+}
+.src-css-base_box_1dC2a {
+  height: 200px;
+  width: 200px;
+  border-radius: 4px;
+  background: #333333;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+body {
+  font-size: 20px;
+}
+.src-css-common_bigBox_o4lLi {
+  height: 400px;
+  width: 400px;
+  border: 5px solid #000;
+  color: #000;
+}
+.src-css-common_bigBox_o4lLi > div {
+  width: 128px;
+  height: 128px;
+  float: left;
+}
+.src-css-common_bigBox_o4lLi .src-css-common_ani1_3922i {
+  background-image: url(dist/assets/imgs/sprites/sprite-a8988.png);
+  background-position: -2560px 0px;
+  background-size: 3640px 2774px;
+}
+.src-css-common_bigBox_o4lLi .src-css-common_ani2_12wHY {
+  background-image: url(dist/assets/imgs/sprites/sprite-a8988.png);
+  background-position: 0px 0px;
+  background-size: 3640px 2774px;
+}
+.src-css-common_bigBox_o4lLi .src-css-common_ani3_3DEXW {
+  background-image: url(dist/assets/imgs/sprites/sprite-a8988.png);
+  background-position: 0px -1920px;
+  background-size: 3640px 2774px;
+}
+.src-css-common_bigBox_o4lLi .src-css-common_ani4_u8NxB {
+  background-image: url(dist/assets/imgs/sprites/sprite-a8988.png);
+  background-position: -1280px 0px;
+  background-size: 3640px 2774px;
+}
